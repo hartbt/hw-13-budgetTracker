@@ -7,7 +7,7 @@ const indexedDB =
   window.shimIndexedDB;
 let db;
 // Tell indexedDb to open (or create) whatever database you want to work with
-const request = indexedDB.open("<your db name here>", 1);
+const request = indexedDB.open("budgetTracker", 1);
 // Set up your object store
 request.onupgradeneeded = ({ target }) => {
   let db = target.result;
