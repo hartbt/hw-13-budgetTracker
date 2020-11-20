@@ -16,7 +16,7 @@ app.use(express.static("public"));
 const opts = {
   useNewUrlParser: true,
   useUnifiedTopology: false,
-  useCreaeIndex: true,
+  useCreateIndex: true,
   useFindAndModify: false
 };
 
