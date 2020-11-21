@@ -1,8 +1,8 @@
 # **Description**
 
-This assignment serves as a burger logger. When the user loads the webpage, they can view the burgers that have no been munched, as well as the burgers that have been munched. The user is also able to add their own burgers and determine if that burger has been munched or not.
+This assignment serves as a budget tracker. When the app is loaded, the user is presented with a blank page that provides form areas for 'Name of Transaction' as well as 'Transaction Amount'. When these form fields are filled out, the user is able to select whether they would like to add or subtract funds in the amount that they have provided. Upon the first entry, a chart is created, and as values are added to the database, the chart is procedurally generated with the given values. The top of the page provides an area that displays the users current amount of money. 
 
-<iframe src="https://drive.google.com/file/d/1wsU8eNXHXoH9w4GafJR3UoJKel0RRnxF/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/12U5dqOjnkf3BAYuWoG-P6Aq9o9bCRLpn/preview" width="640" height="480"></iframe>
 
 <strong>Link to site:</strong>  https://murmuring-atoll-84177.herokuapp.com
 
@@ -14,24 +14,14 @@ This assignment serves as a burger logger. When the user loads the webpage, they
 Run the following commands: 
 
 * nmp init
-* npm install inquirer
-* npm install express
-* npm install express-handlebars
+* npm install
 
 # **Usage**
 
-* When the webpage is loaded, the user is able to see three columns of information. Munched, Not Munched, as well as Add Burger
-* If the user chooses to add a burger, they are given the ability to type in the burger name as well as choose the state that the burger is in.
-* If the user interacts with the burgers that have not been munched, they can either "MUNCH!" which will change the state of the burger to munched, or they can select "NASTY BURGER!" to remove the burger from the database.
-* If the user interacts with the burgers that have been munched, they can either "SPIT OUT!" which will change the state of the burger to not munched, or they can select "NASTY BURGER" to remove the burger from the database.
+* When the application is loaded, the user is presented with a blank page that contains form fields labeled 'Name of transaction' and 'Transaction amount'. After the form fields are entered, the user is able to choose to add or subtract the amount entered.
 
 # **Technologies Used**
 
-Within this assignment the technologies JavaScript and mySQL are used. 
-
-JavaScript is utilized to create the connections between files as well as the functionality of the buttons. The javascript is also being used to create a connection to the databases.
-
-MySQL is utilized to create the database that houses the product information.
 
 # **Problems Faced**
  
@@ -40,6 +30,8 @@ I did not struggle to create this assignement.
 # **Credits**
 
 I give credit to my tutor, my TA's, as well as my classmates for my completion of this assignment. 
+
+potatoGang
 
 # **License**
 
